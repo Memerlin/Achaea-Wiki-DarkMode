@@ -1,0 +1,31 @@
+@-moz-document url-prefix("https://wiki.achaea.com/") {
+body {
+    background-color: #121212 !important;
+    color: #171515 !important;
+}
+
+#mw-page-base {
+    background-color: #171515 !important;
+    background-image: linear-gradient(to bottom, #1e1b1b 50%, #1e1b1b 100%);
+    background-position: bottom left;
+}
+
+.mw-body .firstHeading {
+    background-color: #1e1b1b;
+}
+
+.mw-body, .parsoid-body {
+    background-color: #171515;
+    color: #202122;
+    direction: ltr;
+    padding: 1em;
+}
+
+a:visited {
+    color:#374199
+}
+
+p {
+  color: #827e82;
+  }
+}
